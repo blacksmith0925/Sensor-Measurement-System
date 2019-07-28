@@ -9,9 +9,8 @@
     
 二：Android APP部分
     1.APP工程使用Eclipse开发，包含两个主要的activity：主界面Activity为蓝牙
-      https://github.com/blacksmith0925/images_added/blob/master/screenshots/_20190728140437.jpg
-      
+      https://github.com/blacksmith0925/images_added/raw/master/screenshots/_20190728140437.jpg
       之后跳转到数据动态显示界面
-      https://github.com/blacksmith0925/images_added/blob/master/screenshots/14c8b88da7c528b73c7f4df34b4fc52.jpg
+      https://github.com/blacksmith0925/images_added/raw/master/screenshots/14c8b88da7c528b73c7f4df34b4fc52.jpg
       
     2.适用于Android 5.0(API 22)及以上版本。 
