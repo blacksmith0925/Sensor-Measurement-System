@@ -5,79 +5,73 @@
     android:background="#ededed"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
-	<RelativeLayout
-	    android:layout_width="fill_parent"
-	    android:layout_height="69dp" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="69dp">
 
-  		<TextView
-	  		android:id="@+id/tv_name"
-	  		android:layout_width="wrap_content"
-	  		android:layout_height="wrap_content"
-	  		android:layout_centerVertical="true"
-	  		android:text="蓝牙名称："
-	  		android:textSize="16sp"/>
-  
-  		<EditText
-	  		android:id="@+id/act_main_btname_et"
-	 	 	android:layout_width="fill_parent"
-	  		android:layout_height="wrap_content"
-	  		android:layout_centerVertical="true"
-	  		android:layout_toLeftOf="@+id/act_main_change_name_btn"
-	  		android:layout_toRightOf="@+id/tv_name"
-	  		android:hint="本地蓝牙名称"/>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="蓝牙名称："
+            android:textSize="16sp" />
 
-  		<Button
-	  		android:id="@+id/act_main_change_name_btn"
-	  		android:layout_width="wrap_content"
-	  		android:layout_height="wrap_content"
-	  		android:layout_alignParentRight="true"
-	  		android:layout_centerVertical="true"
-	  		android:text="修改名称"/>
-	</RelativeLayout>
+        <EditText
+            android:id="@+id/act_main_btname_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/act_main_change_name_btn"
+            android:layout_toRightOf="@+id/tv_name"
+            android:hint="本地蓝牙名称" />
 
-	<Button
-		android:id="@+id/act_main_find_btn"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="扫描蓝牙设备"/>
+        <Button
+            android:id="@+id/act_main_change_name_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="修改名称" />
+    </RelativeLayout>
 
-  	<Button
-	  	android:id="@+id/act_main_service_btn"
-	  	android:layout_width="fill_parent"
-	  	android:layout_height="wrap_content"
-	  	android:text="作为服务器"/>
+    <Button
+        android:id="@+id/act_main_find_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描蓝牙设备" />
 
-  	<TextView
-  	    android:layout_width="fill_parent"
-  	    android:layout_height="wrap_content"
-  	    android:layout_marginTop="10dp"
-  	    android:background="@color/color_button_normal"
-  	    android:padding="5dp"
-  	    android:text="已配对的设备："
-  	    android:textSize="16sp" />
-  
-  	<ListView
-  	    android:id="@+id/act_main_device_bonded_list"
-  	    android:layout_width="fill_parent"
-  	    android:layout_height="116dp"
-  	    android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:padding="5dp"
+        android:text="已配对的设备："
+        android:textSize="16sp" />
 
-  	<TextView
-  	    android:layout_width="fill_parent"
-  	    android:layout_height="wrap_content"
-  	    android:layout_marginTop="10dp"
-  	    android:background="@color/color_button_normal"
-  	    android:padding="5dp"
-  	    android:text="查找到新的设备："
-  	    android:textSize="16sp" />
-  
-  	<ListView
-	  	android:id="@+id/act_main_device_new_list"
-  	  	android:layout_width="fill_parent"
-	  	android:layout_height="wrap_content"
-	  	android:layout_marginTop="10dp"/>
-	
+    <ListView
+        android:id="@+id/act_main_device_bonded_list"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:padding="5dp"
+        android:text="查找到新的设备："
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/act_main_device_new_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
 </LinearLayout>
 
